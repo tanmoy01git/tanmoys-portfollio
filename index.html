@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tanmoy Sikdar | Software Engineer</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white font-sans">
+
+  <!-- Hero Section -->
+  <section id="hero" class="min-h-screen flex flex-col justify-center items-center px-4 text-center">
+    <div
+      class="transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-2xl bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl p-10 shadow-xl max-w-2xl"
+      data-aos="zoom-in"
+    >
+      <!-- 🖼️ Profile Image Placeholder -->
+      <!-- <img src="image/profile.jpg" alt="Tanmoy's Profile" class="w-32 h-32 rounded-full mx-auto mb-6 border border-white/30 shadow"> -->
+
+      <h1 class="text-5xl md:text-6xl font-bold mb-4">
+        Hi, I'm <span class="text-indigo-400">Tanmoy Sikdar</span>
+      </h1>
+      <h2 class="text-2xl md:text-3xl font-light mb-6">Software Engineer</h2>
+      <p class="max-w-xl text-gray-300 mb-8">
+        Designing tomorrow’s technology today.
+      </p>
+      <div class="flex gap-4 justify-center">
+        <a href="#projects" class="px-6 py-2 rounded-full bg-indigo-500 hover:bg-indigo-600 transition">View Projects</a>
+        <a href="resume.pdf" target="_blank" class="px-6 py-2 rounded-full border border-indigo-500 hover:bg-indigo-500 transition">Download Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me -->
+  <section id="about" class="py-20 px-6 flex justify-center items-center">
+    <div class="bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl p-10 shadow-2xl max-w-4xl text-center" data-aos="fade-up">
+      <h2 class="text-4xl font-bold mb-6 text-indigo-400">About Me</h2>
+      <p class="text-gray-300 leading-relaxed text-lg">
+        I’m a software engineer with a passion for building scalable web applications and thoughtful user experiences.
+        With a strong foundation in JavaScript, Python, and cloud technologies, I enjoy solving real-world problems
+        through clean and efficient code.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-20 px-6">
+    <div class="max-w-5xl mx-auto text-center" data-aos="fade-up">
+      <h2 class="text-4xl font-bold mb-10 text-indigo-400">Skills</h2>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+        <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-xl py-4 shadow text-gray-200">JavaScript</div>
+        <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-xl py-4 shadow text-gray-200">Python</div>
+        <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-xl py-4 shadow text-gray-200">HTML & CSS</div>
+        <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-xl py-4 shadow text-gray-200">React</div>
+        <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-xl py-4 shadow text-gray-200">Node.js</div>
+        <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-xl py-4 shadow text-gray-200">Tailwind CSS</div>
+        <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-xl py-4 shadow text-gray-200">Git & GitHub</div>
+        <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-xl py-4 shadow text-gray-200">AWS / Cloud</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white/5 backdrop-blur-md border-t border-white/10 text-gray-400 py-6 text-center text-sm select-none" data-aos="fade-up">
+    <p>&copy; This site is made by Tanmoy Sikdar. All rights reserved.</p>
+  </footer>
+
+  <!-- AOS Script -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      once: true,
+      duration: 1000,
+    });
+  </script>
+
+  <!-- Main JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>
